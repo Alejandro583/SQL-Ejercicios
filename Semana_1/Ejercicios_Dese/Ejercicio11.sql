@@ -3,6 +3,7 @@
 --En `11.sql`, escribe una consulta SQL para mostrar los nombres de las escuelas,
 --su gasto por estudiante y su tasa de graduación. Ordena las escuelas de mayor a menor gasto por estudiante.
 --Si dos escuelas tienen el mismo gasto por estudiante, ordénalas por nombre.
+--Debes suponer que una escuela gasta la misma cantidad por estudiante que su distrito gasta en general.
 
 SELECT "schools"."name","expenditures"."per_pupil_expenditure"
 ,"graduation_rates"."graduated"
