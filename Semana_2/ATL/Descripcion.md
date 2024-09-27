@@ -1,1 +1,1 @@
-
+La tarea consiste en crear una base de datos SQLite para ATL desde cero, mediante la escritura de un conjunto de sentencias CREATE TABLE en un archivo schema.sql. Los detalles de implementación son a elección, aunque debes asegurarte, como mínimo, de que tu base de datos cumpla con los requisitos del aeropuerto y que pueda representar los datos de muestra proporcionados.
