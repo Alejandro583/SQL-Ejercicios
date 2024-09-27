@@ -1,1 +1,1 @@
-
+La tarea consiste en crear una base de datos SQLite para LinkedIn desde cero, mediante la escritura de un conjunto de sentencias CREATE TABLE en un archivo schema.sql. Los detalles de implementación son a tu elección, aunque debes asegurarte, como mínimo, de que tu base de datos cumpla con las especificaciones de la plataforma y que pueda representar los datos de muestra proporcionados.
