@@ -1,3 +1,11 @@
+--## 12.sql
+--Un padre te pide consejo sobre cómo encontrar los mejores distritos escolares públicos en Massachusetts.
+--En `12.sql`, escribe una consulta SQL para encontrar los distritos escolares públicos con un gasto por estudiante
+--superior al promedio y un porcentaje de maestros calificados como "ejemplares" superior al promedio.
+--Tu consulta debe devolver los nombres de los distritos, junto con sus gastos por estudiante
+--y el porcentaje de maestros calificados como ejemplares. Ordena los resultados primero por el porcentaje de maestros
+--calificados como ejemplares (de mayor a menor), luego por el gasto por estudiante (de mayor a menor).
+
 SELECT districts.name,
        expenditures.per_pupil_expenditure AS Expenditure,
        staff_evaluations.exemplary AS Exemplary
