@@ -21,23 +21,4 @@ La base de datos `players.db` contiene una sola tabla llamada `players`, que tie
 - **birth_state**: Estado natal del jugador.
 - **birth_country**: País natal del jugador.
 
-## Ejercicios
-
-1. **1.sql**: Encuentra la ciudad natal de Jackie Robinson (incluyendo ciudad, estado y país).
-2. **2.sql**: Encuentra el lado en el que Babe Ruth bateó.
-3. **3.sql**: Encuentra los identificadores de filas donde falta el valor en la columna de debut.
-4. **4.sql**: Encuentra el nombre y apellidos de los jugadores no nacidos en los Estados Unidos, ordenando alfabéticamente por nombre y luego por apellido.
-5. **5.sql**: Devuelve el nombre y apellido de todos los bateadores diestros, ordenados alfabéticamente.
-6. **6.sql**: Devuelve nombre, apellido y fecha de debut de los jugadores nacidos en Pittsburgh, PA, ordenados por fecha de debut (de la más reciente a la más antigua) y alfabéticamente.
-7. **7.sql**: Cuenta el número de jugadores que batean con la mano derecha y lanzan con la mano izquierda, o viceversa.
-8. **8.sql**: Encuentra la altura y peso promedio (redondeados a dos decimales) de los jugadores que debutaron a partir del 1 de enero de 2000. Devuelve columnas con los nombres “Average Height” y “Average Weight”.
-9. **9.sql**: Encuentra a los jugadores que jugaron su último juego en la MLB en 2022, ordenando alfabéticamente por nombre y luego por apellido.
-10. **10.sql**: Escribe una consulta SQL para responder una pregunta de tu elección, utilizando `AS` para renombrar una columna, al menos una condición `WHERE` y ordenando por al menos una columna.
-
-## Cómo Usar
-
-Para probar los ejercicios, utiliza la base de datos proporcionada junto con los archivos de consulta `.sql`. Ejecuta las consultas usando:
-
-```bash
-.read FILENAME.sql
 
